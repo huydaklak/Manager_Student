@@ -1,0 +1,7 @@
+D:\c#\Project_Student_Management\Project_Student_Management\bin\Debug\Project_Student_Management.exe.config
+D:\c#\Project_Student_Management\Project_Student_Management\bin\Debug\Project_Student_Management.exe
+D:\c#\Project_Student_Management\Project_Student_Management\bin\Debug\Project_Student_Management.pdb
+D:\c#\Project_Student_Management\Project_Student_Management\obj\Debug\Project_Student_Management.csproj.AssemblyReference.cache
+D:\c#\Project_Student_Management\Project_Student_Management\obj\Debug\Project_Student_Management.csproj.CoreCompileInputs.cache
+D:\c#\Project_Student_Management\Project_Student_Management\obj\Debug\Project_Student_Management.exe
+D:\c#\Project_Student_Management\Project_Student_Management\obj\Debug\Project_Student_Management.pdb
