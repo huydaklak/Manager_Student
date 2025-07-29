@@ -13,6 +13,7 @@ namespace Project_Student_Management
             manager.LoadFromFile(filePath);
 
             Console.OutputEncoding = Encoding.UTF8;
+            Console.InputEncoding = Encoding.UTF8;
 
             Console.WriteLine("========= MENU QUẢN LÝ SINH VIÊN =========");
             Console.WriteLine(" ");
@@ -34,7 +35,7 @@ namespace Project_Student_Management
                 switch (choice)
                 {
                     case "1":
-                        Console.Write("Nhập mã sinh viên: ");
+                        Console.Write("Nhập mã sinh viên từ bàn phím : ");
                         var id = Console.ReadLine();
 
                         Console.Write("Nhập họ tên: ");

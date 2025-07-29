@@ -4,10 +4,17 @@ namespace Project_Student_Management.Base
 {
     public class Student : Person
     {
+
         public string StudentId;
         public string ClassName;
         public double GPA;
 
+
+        public Student()
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+        }
 
         public override void DisplayInfo()
         {
