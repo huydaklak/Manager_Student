@@ -12,9 +12,10 @@ namespace Project_Student_Management
             Console.InputEncoding = System.Text.Encoding.UTF8;
 
             StudentManager studentManager = new StudentManager();
-            IStudentManager manager = studentManager;
-            IStudentConsoleUI ui = studentManager;
-            manager.LoadFromFile();
+            //IStudentManager manager = studentManager;
+            //IStudentConsoleUI ui = studentManager;
+            studentManager.AddStudent();
+            studentManager.LoadFromFile();
 
             //IStudentManager manager = new StudentManager();
             //IStudentConsoleUI ui = (IStudentConsoleUI)manager;
@@ -43,32 +44,32 @@ namespace Project_Student_Management
                 switch (choice)
                 {
                     case "1":
-                        ui.AddStudent();
+                        studentManager.AddStudent();
                         break;
 
                     case "2":
-                        ui.DisplayAllStudents();
+                        studentManager.DisplayAllStudents();
                         break;
 
                     case "3":
-                        ui.FindStudentById();
+                        studentManager.FindStudentById();
                         break;
 
                     case "4":
-                        ui.DeleteStudentById();
+                        studentManager.DeleteStudentById();
                         break;
 
                     case "5":
-                        ui.SaveToFile();
+                        studentManager.SaveToFile();
                         break;
 
                     case "6":
-                        ui.LoadFromFile();
+                        studentManager.LoadFromFile();
                         break;
 
                     case "0":
                         Console.WriteLine("Thoát chương trình.");
-                        ui.SaveToFile();
+                        studentManager.SaveToFile();
                         return;
                     default:
                         Console.WriteLine("Lựa chọn không hợp lệ, vui lòng nhập lại.");
