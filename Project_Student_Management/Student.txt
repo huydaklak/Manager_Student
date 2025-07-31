@@ -1,2 +1,2 @@
-1234|Phan Dac Huy|19/09/2028|Nam|8|cntt
-HT2|Richart Truong|12/03/1999|Nam|8.7|Tieng Anh Thuong Mai
+455|Michael Truong|14/02/2005|Female|9.2|Aura3
+455|Huy T|13/09/2005|Male|6.9|Aura2

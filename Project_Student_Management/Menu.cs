@@ -8,13 +8,16 @@ namespace Project_Student_Management
     {
         public void Select()
         {
-            //StudentManager studentManager = new StudentManager();
-            //IStudentManager manager = studentManager;
-            //IStudentConsoleUI ui = studentManager;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.InputEncoding = System.Text.Encoding.UTF8;
 
+            StudentManager studentManager = new StudentManager();
+            IStudentManager manager = studentManager;
+            IStudentConsoleUI ui = studentManager;
+            manager.LoadFromFile();
 
-            IStudentManager manager = new StudentManager();
-            IStudentConsoleUI ui = (IStudentConsoleUI)manager;
+            //IStudentManager manager = new StudentManager();
+            //IStudentConsoleUI ui = (IStudentConsoleUI)manager;
 
 
             Console.OutputEncoding = Encoding.UTF8;
@@ -65,6 +68,7 @@ namespace Project_Student_Management
 
                     case "0":
                         Console.WriteLine("Thoát chương trình.");
+                        ui.SaveToFile();
                         return;
                     default:
                         Console.WriteLine("Lựa chọn không hợp lệ, vui lòng nhập lại.");

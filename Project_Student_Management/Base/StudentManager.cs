@@ -53,17 +53,25 @@ namespace Project_Student_Management.Base
 
         public void LoadFromFile(string path)
         {
-            students.Clear();
-            if (File.Exists(path))
+            if (File.Exists(filePath))
             {
-                var lines = File.ReadAllLines(path);
+                var lines = File.ReadAllLines(filePath);
                 foreach (var line in lines)
                 {
-                    students.Add(Student.FromString(line));
+                    var student = Student.FromString(line);
+                    if (student != null)
+                    {
+                        students.Add(student);
+                    }
                 }
+            }
+            else
+            {
+                Console.WriteLine("⚠ File Student.txt không tồn tại.");
             }
         }
 
+        // Console UI methods
 
         public void AddStudent()
         {
@@ -132,7 +140,7 @@ namespace Project_Student_Management.Base
             }
             else
             {
-                Console.WriteLine("❌ Không tìm thấy sinh viên.");
+                Console.WriteLine("Không tìm thấy sinh viên.");
             }
         }
         public void DeleteStudentById()
@@ -143,27 +151,27 @@ namespace Project_Student_Management.Base
             if (sv != null)
             {
                 DeleteStudent(id);
-                Console.WriteLine("✔ Đã xóa sinh viên thành công.");
+                Console.WriteLine("Đã xóa sinh viên thành công.");
             }
             else
             {
-                Console.WriteLine("❌ Không tìm thấy sinh viên.");
+                Console.WriteLine("Không tìm thấy sinh viên.");
             }
         }
         public void SaveToFile()
         {
             SaveToFile(filePath);
-            Console.WriteLine("✔ Đã lưu danh sách vào file.");
+            Console.WriteLine("Đã lưu danh sách vào file.");
         }
 
         public void LoadFromFile()
         {
             LoadFromFile(filePath);
-            Console.WriteLine("✔ Đã đọc danh sách từ file.");
+            Console.WriteLine("Đã đọc danh sách từ file.");
         }
         public void Exit()
         {
-            Console.WriteLine("👋 Tạm biệt!");
+            Console.WriteLine("Tạm biệt!");
         }
     }
 }

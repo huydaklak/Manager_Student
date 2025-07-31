@@ -12,6 +12,6 @@ namespace Project_Student_Management.Base
         void SaveToFile(string filePath);
         void LoadFromFile(string filePath);
 
-
+        void LoadFromFile();
     }
 }

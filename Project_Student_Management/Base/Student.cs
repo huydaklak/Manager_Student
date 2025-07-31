@@ -9,13 +9,10 @@ namespace Project_Student_Management.Base
         public string ClassName;
         public double GPA;
 
-
         public Student()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.InputEncoding = System.Text.Encoding.UTF8;
+            // Bỏ thiết lập Encoding ở đây, vì không đúng trách nhiệm
         }
-
         public override void DisplayInfo()
         {
             base.DisplayInfo();
@@ -26,21 +23,40 @@ namespace Project_Student_Management.Base
 
         public override string ToString()
         {
-            return $"{StudentId}|{FullName}|{DateOfBirth.ToString("dd/MM/yyyy")}|{Gender}|{GPA}|{ClassName}";
+            //return $"{StudentId}|{FullName}|{DateOfBirth.ToString("dd/MM/yyyy")}|{Gender}|{GPA}|{ClassName}";
+            return $"{StudentId}|{FullName}|{DateOfBirth:dd/MM/yyyy}|{Gender}|{GPA}|{ClassName}";
         }
 
         public static Student FromString(string line)
         {
-            var parts = line.Split('|');
-            return new Student
+            try
             {
-                StudentId = parts[0],
-                FullName = parts[1],
-                DateOfBirth = DateTime.ParseExact(parts[2], "dd/MM/yyyy", null),
-                Gender = parts[3],
-                GPA = double.Parse(parts[4]),
-                ClassName = parts[5]
-            };
+                var parts = line.Split('|');
+                if (parts.Length == 6)
+                {
+                    return new Student
+                    {
+                        StudentId = parts[0],
+                        FullName = parts[1],
+                        DateOfBirth = DateTime.ParseExact(parts[2], "dd/MM/yyyy", null),
+                        Gender = parts[3],
+                        GPA = double.Parse(parts[4]),
+                        ClassName = parts[5]
+                    };
+                }
+                else
+                {
+                    Console.WriteLine("⚠ Dữ liệu sai định dạng (không đủ 6 phần): " + line);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Lỗi khi đọc dòng: {line}");
+                Console.WriteLine($"Chi tiết lỗi: {ex.Message}");
+            }
+
+            return null;
+
         }
     }
 }
