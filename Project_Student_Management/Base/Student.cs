@@ -19,7 +19,7 @@ namespace Project_Student_Management.Base
         public override void DisplayInfo()
         {
             base.DisplayInfo();
-            Console.WriteLine("Họ và tên sinh viên : {0}, Ngày tháng năm sinh : {1}, Giới tính : {2}", FullName, DateOfBirth, Gender);
+
             Console.WriteLine("");
             Console.WriteLine("ID sinh viên : {0}, Lớp học : {1}, Điểm trung bình : {2} ", StudentId, ClassName, GPA);
         }

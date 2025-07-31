@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\IStudentConsoleUI.cs" />
     <Compile Include="Base\IStudentManager.cs" />
     <Compile Include="Base\Person.cs" />
     <Compile Include="Base\Student.cs" />
     <Compile Include="Base\StudentManager.cs" />
+    <Compile Include="Base\TestFile.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

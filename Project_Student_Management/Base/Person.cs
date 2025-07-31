@@ -17,7 +17,7 @@ namespace Project_Student_Management.Base
 
         public virtual void DisplayInfo()
         {
-            Console.WriteLine("Họ và tên sinh viên : {0}, Ngày sinh : {1}, Giới tính : {2} ");
+            Console.WriteLine("Họ và tên sinh viên : {0}, Ngày tháng năm sinh : {1}, Giới tính : {2}", FullName, DateOfBirth, Gender);
         }
 
     }

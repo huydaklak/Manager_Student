@@ -6,6 +6,9 @@
         {
             Menu menu = new Menu();
             menu.Select();
+
+            //TestFile testFile = new TestFile();
+            //testFile.Test();
         }
     }
 }

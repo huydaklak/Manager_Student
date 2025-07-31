@@ -8,9 +8,14 @@ namespace Project_Student_Management
     {
         public void Select()
         {
+            //StudentManager studentManager = new StudentManager();
+            //IStudentManager manager = studentManager;
+            //IStudentConsoleUI ui = studentManager;
+
+
             IStudentManager manager = new StudentManager();
-            string filePath = "Student.txt";
-            manager.LoadFromFile(filePath);
+            IStudentConsoleUI ui = (IStudentConsoleUI)manager;
+
 
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.UTF8;
@@ -35,93 +40,27 @@ namespace Project_Student_Management
                 switch (choice)
                 {
                     case "1":
-                        Console.Write("Nhập mã sinh viên từ bàn phím : ");
-                        var id = Console.ReadLine();
-
-                        Console.Write("Nhập họ tên: ");
-                        var name = Console.ReadLine();
-
-                        Console.Write("Nhập ngày sinh (dd/MM/yyyy): ");
-                        DateTime dob = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
-
-                        Console.Write("Nhập giới tính: ");
-                        var gender = Console.ReadLine();
-
-                        Console.Write("Nhập lớp học: ");
-                        var cls = Console.ReadLine();
-
-                        Console.Write("Nhập GPA: ");
-                        var gpa = double.Parse(Console.ReadLine());
-
-                        var newStudent = new Student
-                        {
-                            StudentId = id,
-                            FullName = name,
-                            DateOfBirth = dob,
-                            Gender = gender,
-                            ClassName = cls,
-                            GPA = gpa
-                        };
-                        manager.AddStudent(newStudent);
-                        manager.SaveToFile(filePath);
-                        Console.WriteLine(" Thêm sinh viên thành công!");
-
+                        ui.AddStudent();
                         break;
 
                     case "2":
-                        var allStudents = manager.GetAllStudents();
-                        if (allStudents.Count == 0)
-                        {
-                            Console.WriteLine("Danh sách sinh viên trống.");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Danh sách sinh viên:");
-                            foreach (var s in allStudents)
-                            {
-                                s.DisplayInfo();
-                            }
-                        }
+                        ui.DisplayAllStudents();
                         break;
 
                     case "3":
-                        Console.Write("Nhập mã sinh viên cần tìm: ");
-                        var findId = Console.ReadLine();
-                        var svFind = manager.FindById(findId);
-                        if (svFind != null)
-                        {
-                            Console.WriteLine("Thông tin sinh viên tìm được:");
-                            svFind.DisplayInfo();
-                        }
-                        else
-                        {
-                            Console.WriteLine("Không tìm thấy sinh viên có mã: " + findId);
-                        }
+                        ui.FindStudentById();
                         break;
 
                     case "4":
-                        Console.Write("Nhập mã sinh viên cần xóa: ");
-                        var delId = Console.ReadLine();
-                        var svDel = manager.FindById(delId);
-                        if (svDel != null)
-                        {
-                            manager.DeleteStudent(delId);
-                            Console.WriteLine(" Đã xóa sinh viên thành công.");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Không tìm thấy sinh viên cần xóa.");
-                        }
+                        ui.DeleteStudentById();
                         break;
 
                     case "5":
-                        manager.SaveToFile(filePath);
-                        Console.WriteLine($"Đã lưu danh sách vào file: {filePath}");
+                        ui.SaveToFile();
                         break;
 
                     case "6":
-                        manager.LoadFromFile(filePath);
-                        Console.WriteLine($"Đã đọc danh sách từ file: {filePath}");
+                        ui.LoadFromFile();
                         break;
 
                     case "0":
