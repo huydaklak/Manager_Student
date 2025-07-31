@@ -11,7 +11,8 @@ namespace Project_Student_Management.Base
 
         public Student()
         {
-            // Bỏ thiết lập Encoding ở đây, vì không đúng trách nhiệm
+
+
         }
         public override void DisplayInfo()
         {
@@ -19,6 +20,14 @@ namespace Project_Student_Management.Base
 
             Console.WriteLine("");
             Console.WriteLine("ID sinh viên : {0}, Lớp học : {1}, Điểm trung bình : {2} ", StudentId, ClassName, GPA);
+        }
+
+        public int GetAge()
+        {
+            var today = DateTime.Today;
+            int age = today.Year - DateOfBirth.Year;
+            if (DateOfBirth > today.AddYears(-age)) age--;  //  chưa đến sinh nhật năm nay thì trừ đi 1
+            return age;
         }
 
         public override string ToString()

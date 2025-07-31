@@ -8,6 +8,9 @@
         void DeleteStudentById();
         void SaveToFile();
         void LoadFromFile();
+
+        void DisplayStudentsWithAge();
         void Exit();
+
     }
 }

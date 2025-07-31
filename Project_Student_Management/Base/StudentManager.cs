@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Project_Student_Management.Base
 {
@@ -67,7 +68,7 @@ namespace Project_Student_Management.Base
             }
             else
             {
-                Console.WriteLine("⚠ File Student.txt không tồn tại.");
+                Console.WriteLine("File Student.txt không tồn tại.");
             }
         }
 
@@ -77,6 +78,13 @@ namespace Project_Student_Management.Base
         {
             Console.Write("Nhập mã sinh viên: ");
             string id = Console.ReadLine();
+
+            // kiểm tra trùng ID
+            if (students.Any(s => s.StudentId == id))
+            {
+                Console.WriteLine("❌ Mã sinh viên đã tồn tại. Vui lòng nhập mã khác.");
+                return;
+            }
 
             Console.Write("Nhập họ tên: ");
             string name = Console.ReadLine();
@@ -112,7 +120,7 @@ namespace Project_Student_Management.Base
             };
 
             AddStudent(newStudent);
-            Console.WriteLine("✔ Thêm sinh viên thành công!");
+            Console.WriteLine("Thêm sinh viên thành công!");
         }
         public void DisplayAllStudents()
         {
@@ -169,9 +177,31 @@ namespace Project_Student_Management.Base
             LoadFromFile(filePath);
             Console.WriteLine("Đã đọc danh sách từ file.");
         }
+
+        public void DisplayStudentsWithAge()
+        {
+            if (students.Count == 0)
+            {
+                Console.WriteLine("Danh sách rỗng.");
+                return;
+            }
+
+            Console.WriteLine("\n===== Danh sách sinh viên kèm tuổi =====");
+            foreach (var student in students)
+            {
+                Console.WriteLine($"{student.FullName} - Tuổi: {student.GetAge()}");
+            }
+
+            //var oldest = students.OrderByDescending(s => s.GetAge()).FirstOrDefault();
+            //Console.WriteLine("Sinh viên lớn tuổi nhất:");
+            //oldest.DisplayInfo();
+            //Console.WriteLine("Tuổi: " + oldest.GetAge());
+        }
         public void Exit()
         {
             Console.WriteLine("Tạm biệt!");
         }
+
+
     }
 }
