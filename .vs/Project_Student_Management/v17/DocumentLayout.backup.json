@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "D:\\c#\\Project_Student_Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|d:\\c#\\project_student_management\\project_student_management\\base\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|D:\\c#\\Project_Student_Management\\project_student_management\\base\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\base\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|D:\\c#\\Project_Student_Management\\project_student_management\\base\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\base\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|D:\\c#\\Project_Student_Management\\project_student_management\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|D:\\c#\\Project_Student_Management\\project_student_management\\base\\istudentconsoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\base\\istudentconsoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|D:\\c#\\Project_Student_Management\\project_student_management\\student.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\student.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|d:\\c#\\project_student_management\\project_student_management\\base\\ifilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\base\\ifilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|D:\\c#\\Project_Student_Management\\project_student_management\\base\\istudentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\base\\istudentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|D:\\c#\\Project_Student_Management\\project_student_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|d:\\c#\\project_student_management\\project_student_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|d:\\c#\\project_student_management\\project_student_management\\base\\testfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\base\\testfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|d:\\c#\\project_student_management\\project_student_management\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|d:\\c#\\project_student_management\\project_student_management\\base\\imenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\base\\imenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|D:\\c#\\Project_Student_Management\\project_student_management\\base\\istudentconsoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\base\\istudentconsoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|d:\\c#\\project_student_management\\project_student_management\\student.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\student.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|d:\\c#\\project_student_management\\project_student_management\\base\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23465CF6-86E4-4AD8-9E59-05736A04DE33}|Project_Student_Management\\Project_Student_Management.csproj|solutionrelative:project_student_management\\base\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,89 +50,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Menu.cs",
-              "RelativeDocumentMoniker": "Project_Student_Management\\Menu.cs",
-              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Menu.cs",
-              "RelativeToolTip": "Project_Student_Management\\Menu.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwEAAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T11:06:19.961Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.txt",
+              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Student.txt",
+              "RelativeDocumentMoniker": "Project_Student_Management\\Student.txt",
+              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Student.txt",
+              "RelativeToolTip": "Project_Student_Management\\Student.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-01T10:18:59.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFileHandler.cs",
+              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\IFileHandler.cs",
+              "RelativeDocumentMoniker": "Project_Student_Management\\Base\\IFileHandler.cs",
+              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\IFileHandler.cs",
+              "RelativeToolTip": "Project_Student_Management\\Base\\IFileHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:14:32.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Program.cs",
+              "RelativeDocumentMoniker": "Project_Student_Management\\Program.cs",
+              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Program.cs",
+              "RelativeToolTip": "Project_Student_Management\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:41:32.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestFile.cs",
+              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\TestFile.cs",
+              "RelativeDocumentMoniker": "Project_Student_Management\\Base\\TestFile.cs",
+              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\TestFile.cs",
+              "RelativeToolTip": "Project_Student_Management\\Base\\TestFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:40:26.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Menu.cs",
+              "RelativeDocumentMoniker": "Project_Student_Management\\Menu.cs",
+              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Menu.cs",
+              "RelativeToolTip": "Project_Student_Management\\Menu.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:23:11.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMenu.cs",
+              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\IMenu.cs",
+              "RelativeDocumentMoniker": "Project_Student_Management\\Base\\IMenu.cs",
+              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\IMenu.cs",
+              "RelativeToolTip": "Project_Student_Management\\Base\\IMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:17:53.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IStudentConsoleUI.cs",
               "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\IStudentConsoleUI.cs",
               "RelativeDocumentMoniker": "Project_Student_Management\\Base\\IStudentConsoleUI.cs",
               "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\IStudentConsoleUI.cs",
               "RelativeToolTip": "Project_Student_Management\\Base\\IStudentConsoleUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T11:42:06.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "IStudentManager.cs",
               "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\IStudentManager.cs",
               "RelativeDocumentMoniker": "Project_Student_Management\\Base\\IStudentManager.cs",
               "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\IStudentManager.cs",
               "RelativeToolTip": "Project_Student_Management\\Base\\IStudentManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwA4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T11:42:05.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Student.txt",
-              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Student.txt",
-              "RelativeDocumentMoniker": "Project_Student_Management\\Student.txt",
-              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Student.txt",
-              "RelativeToolTip": "Project_Student_Management\\Student.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-31T11:38:59.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\Student.cs",
-              "RelativeDocumentMoniker": "Project_Student_Management\\Base\\Student.cs",
-              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\Student.cs",
-              "RelativeToolTip": "Project_Student_Management\\Base\\Student.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T11:19:26.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Program.cs",
-              "RelativeDocumentMoniker": "Project_Student_Management\\Program.cs",
-              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Program.cs",
-              "RelativeToolTip": "Project_Student_Management\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T11:06:22.667Z",
               "EditorCaption": ""
             },
             {
@@ -131,9 +168,22 @@
               "RelativeDocumentMoniker": "Project_Student_Management\\Base\\StudentManager.cs",
               "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\StudentManager.cs",
               "RelativeToolTip": "Project_Student_Management\\Base\\StudentManager.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAowFEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAADwvzYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T16:06:01.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\Person.cs",
+              "RelativeDocumentMoniker": "Project_Student_Management\\Base\\Person.cs",
+              "ToolTip": "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Base\\Person.cs",
+              "RelativeToolTip": "Project_Student_Management\\Base\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:15:02.031Z",
               "EditorCaption": ""
             }
           ]

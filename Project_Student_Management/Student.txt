@@ -2,4 +2,5 @@
 455|Huy T|13/09/2005|Male|6.9|Aura2
 123|2|12/02/2025|Male|7.6|Aura12
 TY|Huy|12/05/1998|Male|7.6|Aura12
-THU78|Huy|12/09/1989|Male|9.5|Aura
+THU78|Huy|12/09/1989|Male|9.5|Aura13
+12345|Marco Nguyen|12/07/1994|Male|6.6|Aura12

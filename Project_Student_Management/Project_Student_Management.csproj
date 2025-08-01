@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\IFileHandler.cs" />
+    <Compile Include="Base\IMenu.cs" />
     <Compile Include="Base\IStudentConsoleUI.cs" />
     <Compile Include="Base\IStudentManager.cs" />
     <Compile Include="Base\Person.cs" />

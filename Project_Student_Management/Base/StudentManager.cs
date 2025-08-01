@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Project_Student_Management.Base
 {
-    public class StudentManager : IStudentManager, IStudentConsoleUI
+    public class StudentManager : IStudentManager, IStudentConsoleUI, IFileHandler
     {
         private List<Student> students = new List<Student>();
         private string filePath = "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Student.txt";
@@ -82,7 +82,7 @@ namespace Project_Student_Management.Base
             // kiểm tra trùng ID
             if (students.Any(s => s.StudentId == id))
             {
-                Console.WriteLine("❌ Mã sinh viên đã tồn tại. Vui lòng nhập mã khác.");
+                Console.WriteLine("Mã sinh viên đã tồn tại. Vui lòng nhập mã khác.");
                 return;
             }
 

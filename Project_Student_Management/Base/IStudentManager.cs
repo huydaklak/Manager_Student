@@ -9,8 +9,7 @@ namespace Project_Student_Management.Base
         void DeleteStudent(string StudentId);
         List<Student> GetAllStudents();
         Student FindById(string StudentId);
-        void SaveToFile(string filePath);
-        void LoadFromFile(string filePath);
+
 
         void LoadFromFile();
     }

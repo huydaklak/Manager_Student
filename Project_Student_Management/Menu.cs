@@ -3,10 +3,9 @@ using Project_Student_Management.Base;
 
 namespace Project_Student_Management
 {
-    internal class Menu
+    public class Menu : IMenu
     {
-
-        private void DisplayMenu()
+        public void DisplayMenu()
         {
             Console.WriteLine("\n========= MENU QUẢN LÝ SINH VIÊN =========");
             Console.WriteLine("1.  Thêm sinh viên ");
