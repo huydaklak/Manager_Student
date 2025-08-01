@@ -4,7 +4,7 @@ using System.IO;
 
 namespace Project_Student_Management.Base.Interface
 {
-    public class StudentFileHandler : IFileHandler<Student>
+    public class DataFileHandler : IFileHandler<Student>
     {
         private string filePath = "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Student.txt";
 

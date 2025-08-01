@@ -9,7 +9,7 @@ namespace Project_Student_Management.Base
     {
         private List<Student> students = new List<Student>();
 
-        private IFileHandler<Student> fileHandler = new StudentFileHandler();
+        private IFileHandler<Student> fileHandler = new DataFileHandler();
 
         public void AddStudent(Student student)
         {

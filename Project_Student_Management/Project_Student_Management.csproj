@@ -47,7 +47,7 @@
     <Compile Include="Base\Interface\IMenu.cs" />
     <Compile Include="Base\Interface\IStudentConsoleUI.cs" />
     <Compile Include="Base\Interface\IStudentManager.cs" />
-    <Compile Include="Base\StudentFileHandler.cs" />
+    <Compile Include="Base\DataFileHandler.cs" />
     <Compile Include="Base\Model\Person.cs" />
     <Compile Include="Base\Model\Student.cs" />
     <Compile Include="Base\StudentManager.cs" />
