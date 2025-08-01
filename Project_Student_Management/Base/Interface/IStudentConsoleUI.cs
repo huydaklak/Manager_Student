@@ -6,8 +6,6 @@
         void DisplayAllStudents();
         void FindStudentById();
         void DeleteStudentById();
-
-
         void DisplayStudentsWithAge();
         void Exit();
 

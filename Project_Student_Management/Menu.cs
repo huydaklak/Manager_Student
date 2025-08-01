@@ -24,7 +24,9 @@ namespace Project_Student_Management
             Console.InputEncoding = System.Text.Encoding.UTF8;
 
             StudentManager studentManager = new StudentManager();
+
             studentManager.LoadFromFile();
+
             //IStudentManager manager = new StudentManager();
             //IStudentConsoleUI ui = (IStudentConsoleUI)manager;
 

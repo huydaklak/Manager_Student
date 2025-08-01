@@ -43,14 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base\IFileHandler.cs" />
-    <Compile Include="Base\IMenu.cs" />
-    <Compile Include="Base\IStudentConsoleUI.cs" />
-    <Compile Include="Base\IStudentManager.cs" />
-    <Compile Include="Base\Person.cs" />
-    <Compile Include="Base\Student.cs" />
+    <Compile Include="Base\Interface\IFileHandler.cs" />
+    <Compile Include="Base\Interface\IMenu.cs" />
+    <Compile Include="Base\Interface\IStudentConsoleUI.cs" />
+    <Compile Include="Base\Interface\IStudentManager.cs" />
+    <Compile Include="Base\Model\Person.cs" />
+    <Compile Include="Base\Model\Student.cs" />
     <Compile Include="Base\StudentManager.cs" />
-    <Compile Include="Base\TestFile.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

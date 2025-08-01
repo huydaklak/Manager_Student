@@ -10,7 +10,6 @@ namespace Project_Student_Management.Base
         List<Student> GetAllStudents();
         Student FindById(string StudentId);
 
-
         void LoadFromFile();
     }
 }

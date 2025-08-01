@@ -44,6 +44,7 @@ namespace Project_Student_Management.Base
             return students.Find(s => s.StudentId == id);
         }
 
+        // File handling methods
         public void SaveToFile(string path)
         {
             var lines = new List<string>();

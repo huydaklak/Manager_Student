@@ -9,11 +9,7 @@ namespace Project_Student_Management.Base
         public string ClassName;
         public double GPA;
 
-        public Student()
-        {
 
-
-        }
         public override void DisplayInfo()
         {
             base.DisplayInfo();
