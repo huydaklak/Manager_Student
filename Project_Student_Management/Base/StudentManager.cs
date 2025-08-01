@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
+using Project_Student_Management.Base.Interface;
 
 namespace Project_Student_Management.Base
 {
-    public class StudentManager : IStudentManager, IStudentConsoleUI, IFileHandler
+    public class StudentManager : IStudentManager, IStudentConsoleUI
     {
         private List<Student> students = new List<Student>();
         private string filePath = "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Student.txt";
+        private IFileHandler<Student> fileHandler = new StudentFileHandler();
 
         public void AddStudent(Student student)
         {
@@ -45,33 +46,19 @@ namespace Project_Student_Management.Base
         }
 
         // File handling methods
-        public void SaveToFile(string path)
+
+        public void SaveToFile()
         {
-            var lines = new List<string>();
-            foreach (var sv in students)
-                lines.Add(sv.ToString());
-            File.WriteAllLines(path, lines);
+            fileHandler.SaveFromList(filePath, students);
+            Console.WriteLine("Đã lưu danh sách vào file.");
         }
 
-        public void LoadFromFile(string path)
+        public void LoadFromFile()
         {
-            if (File.Exists(filePath))
-            {
-                var lines = File.ReadAllLines(filePath);
-                foreach (var line in lines)
-                {
-                    var student = Student.FromString(line);
-                    if (student != null)
-                    {
-                        students.Add(student);
-                    }
-                }
-            }
-            else
-            {
-                Console.WriteLine("File Student.txt không tồn tại.");
-            }
+            students = fileHandler.LoadDataList(filePath);
+            Console.WriteLine("Đã đọc danh sách từ file.");
         }
+
 
         // Console UI methods
 
@@ -166,17 +153,6 @@ namespace Project_Student_Management.Base
             {
                 Console.WriteLine("Không tìm thấy sinh viên.");
             }
-        }
-        public void SaveToFile()
-        {
-            SaveToFile(filePath);
-            Console.WriteLine("Đã lưu danh sách vào file.");
-        }
-
-        public void LoadFromFile()
-        {
-            LoadFromFile(filePath);
-            Console.WriteLine("Đã đọc danh sách từ file.");
         }
 
         public void DisplayStudentsWithAge()

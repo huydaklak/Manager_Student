@@ -1,11 +1,10 @@
-﻿namespace Project_Student_Management.Base
-{
-    public interface IFileHandler
-    {
-        void SaveToFile(string filePath);
-        void LoadFromFile(string filePath);
+﻿using System.Collections.Generic;
 
-        void SaveToFile();
-        void LoadFromFile();
+namespace Project_Student_Management.Base
+{
+    public interface IFileHandler<Student>
+    {
+        List<Student> LoadDataList(string filePath);
+        void SaveFromList(string filePath, List<Student> data);
     }
 }

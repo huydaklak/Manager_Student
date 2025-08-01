@@ -26,12 +26,14 @@ namespace Project_Student_Management.Base
             return age;
         }
 
+        // ghi 
         public override string ToString()
         {
             //return $"{StudentId}|{FullName}|{DateOfBirth.ToString("dd/MM/yyyy")}|{Gender}|{GPA}|{ClassName}";
             return $"{StudentId}|{FullName}|{DateOfBirth:dd/MM/yyyy}|{Gender}|{GPA}|{ClassName}";
         }
 
+        // đọc 
         public static Student FromString(string line)
         {
             try

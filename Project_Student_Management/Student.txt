@@ -4,3 +4,4 @@
 TY|Huy|12/05/1998|Male|7.6|Aura12
 THU78|Huy|12/09/1989|Male|9.5|Aura13
 12345|Marco Nguyen|12/07/1994|Male|6.6|Aura12
+HL1234|Michael Pham|12/04/1990|Male|7.7|Aura13
