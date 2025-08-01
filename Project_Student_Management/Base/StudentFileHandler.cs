@@ -6,7 +6,9 @@ namespace Project_Student_Management.Base.Interface
 {
     public class StudentFileHandler : IFileHandler<Student>
     {
-        public void SaveFromList(string filePath, List<Student> data)
+        private string filePath = "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Student.txt";
+
+        public void SaveFromList(List<Student> data)
         {
             var lines = new List<string>();
             foreach (var student in data)
@@ -17,7 +19,7 @@ namespace Project_Student_Management.Base.Interface
             File.WriteAllLines(filePath, lines);
         }
 
-        public List<Student> LoadDataList(string filePath)
+        public List<Student> LoadDataList()
         {
             var students = new List<Student>();
 

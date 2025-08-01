@@ -8,7 +8,7 @@ namespace Project_Student_Management.Base
     public class StudentManager : IStudentManager, IStudentConsoleUI
     {
         private List<Student> students = new List<Student>();
-        private string filePath = "D:\\c#\\Project_Student_Management\\Project_Student_Management\\Student.txt";
+
         private IFileHandler<Student> fileHandler = new StudentFileHandler();
 
         public void AddStudent(Student student)
@@ -49,13 +49,13 @@ namespace Project_Student_Management.Base
 
         public void SaveToFile()
         {
-            fileHandler.SaveFromList(filePath, students);
+            fileHandler.SaveFromList(students);
             Console.WriteLine("Đã lưu danh sách vào file.");
         }
 
         public void LoadFromFile()
         {
-            students = fileHandler.LoadDataList(filePath);
+            students = fileHandler.LoadDataList();
             Console.WriteLine("Đã đọc danh sách từ file.");
         }
 
