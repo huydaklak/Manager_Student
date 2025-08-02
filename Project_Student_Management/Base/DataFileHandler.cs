@@ -42,5 +42,28 @@ namespace Project_Student_Management.Base.Interface
 
             return students;
         }
+
+        public void ChangeFilePathData(string newFath)
+        {
+            if (string.IsNullOrEmpty(newFath))
+            {
+                Console.WriteLine("Đường dẫn không hợp lệ.");
+                return;
+            }
+            filePath = newFath;
+            Console.WriteLine($"Đường dẫn tệp đã được thay đổi thành: {filePath}");
+        }
+
+        public void ShowFilePathData()
+        {
+            if (string.IsNullOrEmpty(filePath))
+            {
+                Console.WriteLine("Đường dẫn tệp chưa được thiết lập.");
+            }
+            else
+            {
+                Console.WriteLine($"Đường dẫn tệp hiện tại: {filePath}");
+            }
+        }
     }
 }

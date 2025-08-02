@@ -6,5 +6,9 @@ namespace Project_Student_Management.Base
     {
         List<Student> LoadDataList();
         void SaveFromList(List<Student> data);
+
+        void ChangeFilePathData(string newFath);
+        void ShowFilePathData();
+
     }
 }

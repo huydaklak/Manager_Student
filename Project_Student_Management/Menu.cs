@@ -1,5 +1,6 @@
 ﻿using System;
 using Project_Student_Management.Base;
+using Project_Student_Management.Base.Interface;
 
 namespace Project_Student_Management
 {
@@ -15,6 +16,8 @@ namespace Project_Student_Management
             Console.WriteLine("5.  Ghi danh sách vào file Student.txt");
             Console.WriteLine("6.  Đọc danh sách từ file Student.txt");
             Console.WriteLine("7. Hiển thị sinh viên kèm tuổi");
+            Console.WriteLine("8. Hiện thị đường dẫn file");
+            Console.WriteLine("9. Thay đổi đường dẫn file");
             Console.WriteLine("0.  Thoát");
             Console.WriteLine("==========================================");
         }
@@ -24,6 +27,7 @@ namespace Project_Student_Management
             Console.InputEncoding = System.Text.Encoding.UTF8;
 
             StudentManager studentManager = new StudentManager();
+            DataFileHandler dataFileHandler = new DataFileHandler();
 
             studentManager.LoadFromFile();
 
@@ -64,6 +68,13 @@ namespace Project_Student_Management
 
                     case "7":
                         studentManager.DisplayStudentsWithAge();
+                        break;
+                    case "8":
+                        dataFileHandler.ShowFilePathData();
+                        break;
+                    case "9":
+                        string newPath = Console.ReadLine();
+                        dataFileHandler.ChangeFilePathData(newPath);
                         break;
 
                     case "0":
