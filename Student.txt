@@ -6,3 +6,4 @@ THU78|Huy|12/09/1989|Male|9.5|Aura13
 12345|Marco Nguyen|12/07/1994|Male|6.6|Aura12
 HL1234|Michael Pham|12/04/1990|Male|7.7|Aura13
 HT1234|Dac Huy Phan|19/08/2005|Male|7|Aura7
+DC1234|Ivan Truong|12/06/2000|Male|4|Aura12

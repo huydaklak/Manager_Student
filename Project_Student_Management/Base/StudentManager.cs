@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Project_Student_Management.Base.Interface;
 
 namespace Project_Student_Management.Base
 {
@@ -9,7 +8,19 @@ namespace Project_Student_Management.Base
     {
         private List<Student> students = new List<Student>();
 
-        private IFileHandler<Student> fileHandler = new DataFileHandler();
+        // tạo hàm ngu 
+        //private IFileHandler<Student> fileHandler = new DataFileHandler();
+        //private DataFileHandler fileHandler;
+
+
+
+        // cách đúng 
+        private readonly IFileHandler<Student> fileHandler;
+
+        public StudentManager(IFileHandler<Student> fileHandler)
+        {
+            this.fileHandler = fileHandler;
+        }
 
         public void AddStudent(Student student)
         {

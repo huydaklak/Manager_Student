@@ -26,8 +26,9 @@ namespace Project_Student_Management
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.InputEncoding = System.Text.Encoding.UTF8;
 
-            StudentManager studentManager = new StudentManager();
             DataFileHandler dataFileHandler = new DataFileHandler();
+            StudentManager studentManager = new StudentManager(dataFileHandler);
+
 
             studentManager.LoadFromFile();
 
